@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Project: MyTasker
+ Copyright (C) 2014 monsternyaa gmail com,
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You may obtain a copy of the License at
+
+ <http://www.gnu.org/licenses/>.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/addRec2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onButtonClick_addRec2"
+            android:text="@string/rec_add2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvData2"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+    </ListView>
+
+</LinearLayout>

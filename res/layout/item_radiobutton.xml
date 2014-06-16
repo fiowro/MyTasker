@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Project: MyTasker
+ Copyright (C) 2014 monsternyaa gmail com,
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You may obtain a copy of the License at
+
+ <http://www.gnu.org/licenses/>.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <CheckedTextView
+        android:id="@+id/itemTriggerR"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:checkMark="?android:attr/listChoiceIndicatorSingle"
+        android:checked="false"
+        android:gravity="center_horizontal|center"
+        android:paddingRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

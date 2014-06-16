@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Project: MyTasker
+ Copyright (C) 2014 monsternyaa gmail com,
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You may obtain a copy of the License at
+
+ <http://www.gnu.org/licenses/>.
+ -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textSelTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sellect_task"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/spinnerTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textTitleValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textTitleValue"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textValue"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:background="@android:color/transparent" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textMonday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Mon" />
+
+                <CheckBox
+                    android:id="@+id/checkMon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textTuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Tue" />
+
+                <CheckBox
+                    android:id="@+id/checkTue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textWednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Wed" />
+
+                <CheckBox
+                    android:id="@+id/checkWed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textThursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Thu" />
+
+                <CheckBox
+                    android:id="@+id/checkThu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textFriday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Fri" />
+
+                <CheckBox
+                    android:id="@+id/checkFri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textSaturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Sat" />
+
+                <CheckBox
+                    android:id="@+id/checkSat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textSunday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Sun" />
+
+                <CheckBox
+                    android:id="@+id/checkSun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onButton1Click_Save"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onButton2Click_Cancel"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

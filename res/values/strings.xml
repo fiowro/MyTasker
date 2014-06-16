@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Project: MyTasker
+ Copyright (C) 2014 monsternyaa gmail com,
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You may obtain a copy of the License at
+
+ <http://www.gnu.org/licenses/>.
+ -->
+<resources>
+
+    <string name="app_name">MyTasker</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="list_profiles">MyTasker</string>
+    <string name="rec_add">Add profile</string>    
+    <string name="new_profiles">MyTasker - Change profile</string>
+    <string name="title_profiles">Name of profile</string>
+    
+    <string name="list_task">MyTasker - Tasks</string>
+    <string name="rec_add2">Add task</string>    
+    <string name="new_task">MyTasker - Edit task</string>     
+    <string name="sellect_task">Select a task</string>    
+    
+    <string name="textTitleValue">Value -\t</string>
+    <string name="textValue">not chosen</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>    
+    
+</resources>

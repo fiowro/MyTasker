@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Project: MyTasker
+ Copyright (C) 2014 monsternyaa gmail com,
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You may obtain a copy of the License at
+
+ <http://www.gnu.org/licenses/>.
+ -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.mytasker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+
+        <activity
+            android:name="com.app.mytasker.MainActivity"
+            android:label="@string/list_profiles" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Message"
+            android:label="@string/new_profiles" >
+        </activity>
+        <activity
+            android:name=".Message2"
+            android:label="@string/new_task" >
+        </activity>
+        <activity
+            android:name=".Task"
+            android:label="@string/list_task" >
+        </activity>
+
+        <service
+            android:name="MyService"
+            android:process=":mytasker_service" >
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />     
+
+</manifest>
